@@ -20,6 +20,9 @@
 ## Monitoring Airflow with grafana
 
 ### configuration modification
+
+**file location :** vi ~/airflow/airflow.cfg
+
       statsd_on = True
       statsd_host = localhost
       statsd_port = 8125
